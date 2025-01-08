@@ -14,7 +14,7 @@ spec:
       serviceAccountName: spring-cloud-kubernetes
       containers:
       - name: admin
-        image: piomin/admin
+        image: piomin/admin:c45cd99-dirty
         ports:
         - containerPort: 8080
         env:

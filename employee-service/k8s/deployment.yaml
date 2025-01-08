@@ -17,7 +17,7 @@ spec:
       serviceAccountName: spring-cloud-kubernetes
       containers:
       - name: employee
-        image: piomin/employee
+        image: piomin/employee:c45cd99-dirty
         ports:
         - containerPort: 8080
         env:
